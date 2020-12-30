@@ -47,6 +47,8 @@ function runEnter() {
     shape.text(dataItem.shape);
     var durationMinutes = row.append("td");
     durationMinutes.text(dataItem.durationMinutes);
+    var comment = row.append("td");
+    comment.text(dataItem.comments);
   })
   console.log(UFOdata);
 };
