@@ -48,6 +48,8 @@ select {
 }
 
 #table-area th {
+  font-size: 2.8rem;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -85,7 +87,7 @@ select {
 }
 
 .hero p {
-  font-size: 2rem;
+  font-size: 4rem;
   opacity: 0;
   animation: subtitle 1.2s forwards linear;
   animation-delay: 1.2s;
@@ -121,11 +123,12 @@ select {
 
 @media (max-width: 500px) {
   #table-area thead {
+    font-size: 3em;
     display: none;
   }
 
   #table-area tr td:first-child {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
     background: #1b3146;
   }
@@ -144,7 +147,7 @@ select {
   }
 
   #table-area td {
-    font-size: 1.25em;
+    font-size: 2em;
   }
 
   #table-area tbody td {
@@ -154,7 +157,7 @@ select {
 
   #table-area tbody td::before {
     display: block;
-    font-size: 1.4em;
+    font-size: 2em;
     font-weight: bold;
     text-align: center;
     content: attr(data-th);
@@ -172,7 +175,7 @@ select {
   }
 
   to {
-    font-size: 7.5rem;
+    font-size: 10rem;
     opacity: 1;
   }
 }
@@ -183,7 +186,7 @@ select {
   }
 
   to {
-    font-size: 5.5rem;
+    font-size: 7rem;
     opacity: 1;
   }
 }

@@ -30,7 +30,7 @@ function runEnter() {
     else {
       formattedDate = formattedDate.format("M/DD/YYYY");
     }
-  var UFOdata = tableData.filter(({datetime, city}) => datetime === formattedDate);
+  var UFOdata = tableData.filter(({datetime}) => datetime === formattedDate);
 
   UFOdata.forEach(function(dataItem){
     var row = tbody.append("tr");
