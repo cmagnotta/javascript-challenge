@@ -15,7 +15,7 @@ body {
 
 
 div.a {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
